@@ -8,12 +8,12 @@ public class Prgm1_Factorial {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number (between 1 to 19) : ");
         int n = sc.nextInt();
-        int fact = 1 , temp = n;
+        int fact = 1;
         if(n < 20) {
             for (int i = 1; i <= n; i++) {
                 fact *= i;
             }
-            System.out.println("The factorial of "  + temp + " is : " + fact);
+            System.out.println("The factorial of "  + n + " is : " + fact);
             int num = sumOfDigits(fact);
             System.out.println("The sum of digits of " + fact + " is : " + num);
         }
