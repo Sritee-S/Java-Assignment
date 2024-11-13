@@ -10,7 +10,6 @@ public class Prgm2_PrimeArray {
             System.out.print("Enter element " + (i+1) + " : ");
             arr[i] = sc.nextInt();
         }
-//        System.out.println(Arrays.toString(arr));
         primenumber(arr);
     }
 
